@@ -1,0 +1,57 @@
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 35px;
+  .homeTitle {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 32px;
+    @media screen and (min-width: 768px) {
+      font-size: 72px;
+    }
+    .colorFont {
+      color: #c784f5;
+    }
+    .underline {
+      text-decoration: underline;
+      text-decoration-color: #c784f5;
+    }
+  }
+  .description {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 32px;
+    @media screen and (min-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  .btnContainer {
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      gap: 16px;
+    }
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #9c32e2;
+      color: #ffffff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+    }
+    .buttonReverse {
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      margin-top: 8px;
+      @media screen and (min-width: 768px) {
+        margin-top: 0;
+      }
+    }
+  }
+}
