@@ -1,0 +1,45 @@
+.sectionImgRight {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 80px 35px;
+  }
+  .imageRight {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+    }
+  }
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    h3 {
+      color: #ffffff;
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+    h2 {
+      color: #ffffff;
+      font-size: 32px;
+      margin-bottom: 32px;
+      @media screen and (min-width: 768px) {
+        font-size: 72px;
+      }
+    }
+    p {
+      color: #ffffff;
+      font-size: 18px;
+      margin-bottom: 32px;
+    }
+    a {
+      color: #ffffff;
+      font-size: 20px;
+    }
+  }
+}
