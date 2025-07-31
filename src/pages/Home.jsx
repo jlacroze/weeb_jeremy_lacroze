@@ -20,7 +20,36 @@ function Home() {
         bannerImageUrl="/assets/banner.png"
         bannerAlt="Banner Image"
       />
-      <Partners />
+      <Partners
+        title="Ils nous font confiance"
+        partners={[
+          {
+            name: "SmartFinder",
+            logo: "/assets/partner1.png",
+            alt: "Logo SmartFinder",
+          },
+          {
+            name: "Zoomerr",
+            logo: "/assets/partner2.png",
+            alt: "Logo Zoomerr",
+          },
+          {
+            name: "SHELLS",
+            logo: "/assets/partner3.png",
+            alt: "Logo SHELLS",
+          },
+          {
+            name: "WAVES",
+            logo: "/assets/partner4.png",
+            alt: "Logo WAVES",
+          },
+          {
+            name: "ArtVenue",
+            logo: "/assets/partner5.png",
+            alt: "Logo ArtVenue",
+          },
+        ]}
+      />
       <TextImg
         title={
           <>
