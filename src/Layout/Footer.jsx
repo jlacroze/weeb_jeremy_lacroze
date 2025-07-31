@@ -3,10 +3,10 @@ import styles from "./Footer.module.scss";
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <Link to="/" className={styles.logo}>
-        weeb
-      </Link>
       <div className={styles.footerTop}>
+        <Link to="/" className={styles.logo}>
+          weeb
+        </Link>
         <ul>
           <li>
             <span>PRODUCT</span>
