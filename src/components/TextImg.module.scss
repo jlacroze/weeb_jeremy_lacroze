@@ -1,19 +1,13 @@
-.sectionImgRight {
+.section {
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
+
   @media screen and (min-width: 1200px) {
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
+    gap: 110px;
     padding: 80px 35px;
-  }
-  .imageRight {
-    width: 100%;
-    height: auto;
-    margin-bottom: 50px;
-    @media screen and (min-width: 1200px) {
-      margin-bottom: 0;
-    }
   }
   .textContent {
     display: flex;
@@ -41,5 +35,18 @@
       color: #ffffff;
       font-size: 20px;
     }
+  }
+}
+.textColor {
+  color: blue;
+}
+.left {
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
+.right {
+  @media screen and (min-width: 1200px) {
+    flex-direction: row-reverse;
   }
 }
