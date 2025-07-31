@@ -29,13 +29,15 @@ function Hero({
           </button>
         )}
       </div>
-      <div className={styles.banner}>
-        <img
-          src={bannerImageUrl}
-          alt={bannerAlt}
-          className={styles.bannerImage}
-        />
-      </div>
+      {bannerImageUrl && (
+        <div className={styles.banner}>
+          <img
+            src={bannerImageUrl}
+            alt={bannerAlt}
+            className={styles.bannerImage}
+          />
+        </div>
+      )}
     </section>
   );
 }
